@@ -19,6 +19,6 @@ window.onload = function () {
   const dimensions = "<ul>\n<li>radius of a sphere = " + radiusOfASphere
 
   // output
-  document.getElementById('dimensions').innerHTML = dimensions
+  document.getElementById('radius').innerHTML = dimensions
   document.getElementById('volume').innerHTML = 'volume is: ' + volume.toFixed(2)
 }
